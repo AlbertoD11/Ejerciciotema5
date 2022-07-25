@@ -1,10 +1,10 @@
-package Interfaces;
+package Ejerciciotema5;
 
 public class Main {
 
     public static void main(String[] args) {
 
-        CocheCRUD cocheCrud = new CocheCRUDImpl();
+        Coche cocheCrud = new CocheCRUDImpl();
         System.out.println(cocheCrud);
 
     }

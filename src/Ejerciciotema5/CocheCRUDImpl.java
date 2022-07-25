@@ -1,8 +1,8 @@
-package Interfaces;
+package Ejerciciotema5;
 
-public class CocheCRUDImpl {
+public class CocheCRUDImpl extends Coche {
 
-    public static class cocheCRUDImpl extends CocheCRUD {
+
 
         @Override
         public void save() {
@@ -28,4 +28,4 @@ public class CocheCRUDImpl {
                     ", delete=" + delete;
         }
     }
-}
+

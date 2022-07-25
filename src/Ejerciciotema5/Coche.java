@@ -1,9 +1,15 @@
 package Ejerciciotema5;
 
-public class CocheCRUD {
+public abstract class Coche {
 
 
-    public interface Cochecrud {
+    public abstract void save();
+
+    public abstract void findAll();
+
+    public abstract void delete();
+
+    public interface CocheCRUD {
 
         void save();
         void findAll();
